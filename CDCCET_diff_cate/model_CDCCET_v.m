@@ -24,7 +24,7 @@ f = - sum(log_Xi_t(sub2ind(size(Xi_t), 1:N_t, L_t'))) * exp(lambda1) / N_t  ...
 
 %gradient
 g = - phi_t' * (full(sparse(1:N_t, L_t, ones(1,N_t), N_t, cate_count_t)) - Xi_t) * exp(lambda1) / N_t ...
-    + exp(lambda3) * v;
+    + 2 * exp(lambda3) * v;
 
 g1 = reshape(g, cate_count_s * cate_count_t, 1); %vectorize
 

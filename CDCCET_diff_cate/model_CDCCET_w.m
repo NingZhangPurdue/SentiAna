@@ -38,7 +38,7 @@ for i = 1:cate_count_s
 end
 g = - X_t' * diag(a) * c * exp(lambda1) / N_t...
     - X_s' * diag(beta) * (full(sparse(1:N_s, L_s, ones(1,N_s), N_s, cate_count_s)) - phi_s)   * exp(lambda2) / N_s...
-    + w;
+    + 2 * w;
 
 g1 = reshape(g, M*cate_count_s, 1); %vectorize
 
