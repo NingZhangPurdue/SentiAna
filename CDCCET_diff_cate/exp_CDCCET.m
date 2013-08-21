@@ -1,4 +1,4 @@
-function exp_CDCCET(mode, deno_sample_rate, num_round)
+function exp_CDCCET(mode, deno_sample_rate, num_round, do_cross_val)
 
 data_QQ = load('../feaMat_comments_Preprocess_QQEntertainment.txt');
 data_Sina = load('../feaMat_comments_Preprocess_SinaSociety.txt');
@@ -36,6 +36,17 @@ L_t = target(:, 2);
 
 accu_train = zeros(num_round, 1);
 accu_test = zeros(num_round, 1);
+if do_cross_val == 1
+    l1_opt = -11;
+    l2_opt = -11;
+    l3_opt = -11;
+    bw_opt = -11;
+else
+    l1_opt = -4;
+    l2_opt = -5;
+    l3_opt = -2;
+    bw_opt = 0.5;
+end
 for i = 1:num_round
     indices = rand(N_t, 1) < (1 / deno_sample_rate);
     X_train = X_t(indices, : );
@@ -43,8 +54,7 @@ for i = 1:num_round
     X_test = X_t(~indices, : );
     L_test = L_t(~indices, : );
     
-    %??keep otimal lambda value??
-    [w, v, accu_train(i)] = train_CDCCET(X_s, L_s, X_train, L_train, -4, -5, -2, 0, cate_count_s, cate_count_t);
+    [w, v, accu_train(i), l1_opt, l2_opt, l3_opt, bw_opt] = train_CDCCET(X_s, L_s, X_train, L_train, l1_opt, l2_opt, l3_opt, bw_opt, do_cross_val, cate_count_s, cate_count_t);
     accu_test(i) = test_CDCCET(X_test, L_test, w, v);
 end
 
