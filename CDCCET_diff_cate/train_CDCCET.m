@@ -2,22 +2,22 @@ function [w, v, accu_train, l1_opt, l2_opt, l3_opt, bw_opt] = train_CDCCET(X_s, 
 addpath('/homes/zhan1149/rly/Logistic/minFunc');
 
 if lambda1 < -10
-    lambda1 = -10:2;
+    lambda1 = -4:3:11;
 else
     l1_opt = lambda1;
 end
 if lambda2 < -10
-    lambda2 = -10:2;
+    lambda2 = -4:3:11;
 else
     l2_opt = lambda1;
 end
 if lambda3 < -10
-    lambda3 = -10:2;
+    lambda3 = -10:2:2;
 else
     l3_opt = lambda3;
 end
 if bandwidth < 0
-    bandwidth = [0.25, 0.5, 1, 3.5, 5, 10, 20, 50];
+    bandwidth = [0.5, 1, 3.5, 5, 10, 20, 50];
 else
     bw_opt = bandwidth;
 end
@@ -26,6 +26,7 @@ N_t = length(L_t);
 
 %cross-validation for optimal lambda1 and lambda2
 if kfold ~= 0
+    fprintf('-----cross validataion start-----\r\n');
     l1_opt = -10;
     l2_opt = -10;
     l3_opt = -10;
@@ -49,7 +50,11 @@ if kfold ~= 0
 
                         accu_cv(i) = test_CDCCET(X_test, L_test, w_tmp, v_tmp);
                     end
-                    accu_ave = mean(accu_cv);
+                    l1
+                    l2
+                    l3
+                    bw
+                    accu_ave = mean(accu_cv)
                     if accu_ave >= accu_max
                         accu_max = accu_ave;
                         l1_opt = l1;
@@ -62,13 +67,14 @@ if kfold ~= 0
         end
         system('rm beta');
     end
+    fprintf('-----cross validation end-----\r\n');
 end
 
 %train
 try
     load beta
 catch err
-    fprintf('!!-----KDE start-----!\r\n');
+    fprintf('-----KDE start-----\r\n');
     %KDE bandwidth
     bandwidth = bw_opt;
     %ratio of category marginal probability between source and target (by kernel density estimation)
@@ -82,7 +88,7 @@ catch err
     beta = pr_cate_marg;
     save beta beta -ascii
 end
-fprintf('!!-----KDE got-----!!\r\n!!-----Optimization start-----!!\r\n');
+fprintf('-----Optimization start-----\r\n');
 
 %optimization
 options = [];
@@ -107,7 +113,7 @@ while true
     %convergence condition 
     fprintf('Iteration err ratio v: %f\r\n', norm(v - v_old)/norm(v_old));
     if norm(w - w_old)/norm(w_old) < 0.04 & norm(v - v_old)/norm(v_old) < 0.01
-        fprintf('!!-----Convergency-----!!\r\n')
+        fprintf('-----Convergency-----\r\n')
         break
     end
     w_old = w;

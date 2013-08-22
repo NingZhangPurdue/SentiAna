@@ -1,4 +1,5 @@
-function exp_CDET_J(mode, deno_sample_rate, num_round)
+function exp_CDET_J(mode, deno_sample_rate, num_round, do_cross_val)
+fprintf('exp_CDET_J(%d,%d,%d)\r\n',mode,deno_sample_rate,num_round);
 
 data_QQ = load('../feaMat_comments_Preprocess_QQEntertainment.txt');
 data_Sina = load('../feaMat_comments_Preprocess_SinaSociety.txt');
@@ -27,9 +28,15 @@ L_t = L_t - 1;
 
 accu_train = zeros(num_round, 1);
 accu_test = zeros(num_round, 1);
-l1_opt = -4;
-l2_opt = -6;
-bw_opt = 0.5;
+if do_cross_val == 0
+    l1_opt = 8;%optimal when sample ratio 1/2
+    l2_opt = 8;
+    bw_opt = 10;
+else
+    l1_opt = -11;
+    l2_opt = -11;
+    bw_opt = -1;
+end
 for i = 1:num_round
     indices = rand(N_t, 1) < (1 / deno_sample_rate);
     X_train = X_t(indices, : );
@@ -37,9 +44,10 @@ for i = 1:num_round
     X_test = X_t(~indices, : );
     L_test = L_t(~indices, : );
     
-    [w, accu_train(i), l1_opt, l2_opt, bw_opt] = train_CDET_J(X_s, L_s, X_train, L_train, l1_opt, l2_opt, bw_opt, 0, cate_count); %-4,-6   -3,-4
+    [w, accu_train(i), l1_opt, l2_opt, bw_opt] = train_CDET_J(X_s, L_s, X_train, L_train, l1_opt, l2_opt, bw_opt, do_cross_val, cate_count); %-4,-6   -3,-4
+    do_cross_val = 0;
     accu_test(i) = test_CDET_J(X_test, L_test, w);
 end
 
-mean(accu_train)
-mean(accu_test)
+accu_train = mean(accu_train)
+accu_test = mean(accu_test)

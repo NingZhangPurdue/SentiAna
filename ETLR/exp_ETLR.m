@@ -1,4 +1,5 @@
 function exp_ETLR(mode, deno_sample_rate, num_round, do_cross_val)
+fprintf('exp_ETLR(%d,%d,%d)\r\n',mode,deno_sample_rate,num_round);
 
 data_QQ = load('../feaMat_comments_Preprocess_QQEntertainment.txt');
 data_Sina = load('../feaMat_comments_Preprocess_SinaSociety.txt');
@@ -29,10 +30,10 @@ L_t = L_t - 1;
 
 accu_train = zeros(num_round, 1);
 accu_test = zeros(num_round, 1);
-if do_cross_val == 1
+if do_cross_val > 0
     l1_opt = -11;
 else
-    l1_opt = -4;
+    l1_opt = 9;
 end
 for i = 1:num_round
     indices = rand(N_t, 1) < (1 / deno_sample_rate);
@@ -42,8 +43,8 @@ for i = 1:num_round
     L_test = L_t(~indices, : );
     
     [w, accu_train(i), l1_opt] = train_ETLR(X_train, L_train, l1_opt, do_cross_val, cate_count); %-4,-6   -3,-4
+    do_cross_val = 0;
     accu_test(i) = test_ETLR(X_test, L_test, w);
 end
-
-mean(accu_train)
-mean(accu_test)
+accu_train = mean(accu_train)
+accu_test = mean(accu_test)

@@ -2,17 +2,17 @@ function [w, accu_train, l1_opt, l2_opt, bw_opt] = train_CDET_J(X_s, L_s, X_t, L
 addpath('/homes/zhan1149/rly/Logistic/minFunc');
 
 if lambda1 < -10
-    lambda1 = -10:2;
+    lambda1 = -1:2:9;
 else
     l1_opt = lambda1;
 end
 if lambda2 < -10
-    lambda2 = -10:2;
+    lambda2 = -4:2:10;
 else
     l2_opt = lambda2;
 end
 if bandwidth < 0
-    bandwidth = [0.25, 0.5, 1, 3.5, 5, 10, 20, 50];
+    bandwidth = [7.5, 10, 12.5];
 else
     bw_opt = bandwidth;
 end
@@ -22,6 +22,7 @@ N_t = length(L_t);
 
 %cross-validation for optimal lambda1 and lambda2
 if kfold ~= 0
+    fprintf('-----Cross validation start-----\r\n');
     l1_opt = -10;
     l2_opt = -10;
     bw_opt = 0;
@@ -37,13 +38,13 @@ if kfold ~= 0
                     X_test = X_t(indices_test, : );
                     X_dev = X_t(~indices_test, : );
                     L_test = L_t(indices_test, : );
-                    L_dev = L_t(~indices_test, : );
-                    
+                    L_dev = L_t(~indices_test, : ); 
                     [w_tmp, accu_tmp,~,~,~] = train_CDET_J(X_s, L_s, X_dev, L_dev, l1, l2, bw, 0, cate_count);
 
                     accu_cv(i) = test_CDET_J(X_test, L_test, w_tmp);
                 end
                 accu_ave = mean(accu_cv);
+                fprintf('l1:%d, l2:%d, bw:%d, accu_ave:%f\r\n',l1,l2,bw,accu_ave);
                 if accu_ave >= accu_max
                     accu_max = accu_ave;
                     l1_opt = l1;
@@ -54,6 +55,10 @@ if kfold ~= 0
         end
         system('rm beta');
     end
+    fprintf('-----Cross validation end-----\r\n');
+    l1_opt
+    l2_opt
+    bw_opt
 end
 
 %train
@@ -61,7 +66,7 @@ beta = zeros(N_s, 1);
 try
     load beta
 catch err
-    fprintf('!!-----KDE start-----!\r\n');
+    fprintf('-----KDE start-----\r\n');
     bandwidth = bw_opt;
     %ratio of category probability between source and target
     pr_cate_t = tabulate(L_t);
@@ -85,10 +90,10 @@ catch err
     beta = beta(sub2ind([N_s, cate_count], 1:N_s, L_s'));
     save beta beta -ascii
 end
-size(beta)
-test = sum(beta)
+%size(beta)
+%test = sum(beta)
 
-fprintf('!!-----KDE got-----!!\r\n!!-----Optimization start-----!!\r\n');
+fprintf('-----Optimization start-----\r\n');
 %optimization
 options = [];
 options.display = 'none';
