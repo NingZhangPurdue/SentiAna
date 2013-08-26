@@ -4,14 +4,14 @@ function [f, g1] = model_CDCCET_w(w1, X_s, L_s, X_t, L_t, beta, lambda1, lambda2
 [N_t, ~] = size(X_t);
 
 w = reshape(w1, M, cate_count_s); %de-vectorize
-v = reshape(v1, cate_count_s + 1, cate_count_t);
+v = reshape(v1, M + cate_count_s + 1, cate_count_t);
 
 tmp = exp(X_s * w);
 phi_s = tmp ./ repmat(sum(tmp,2), 1, cate_count_s);
 
 tmp = exp(X_t * w);
 phi_t = tmp ./ repmat(sum(tmp,2), 1, cate_count_s);
-phi_t = [phi_t, ones(N_t, 1)];
+phi_t = [X_t, phi_t, ones(N_t, 1)];
 tmp = exp(phi_t * v);
 Xi_t = tmp ./ repmat(sum(tmp,2), 1, cate_count_t);
 
@@ -30,9 +30,9 @@ c = zeros(N_t, cate_count_s);
 %g = zeros(M * cate_count_s);
 
 for i = 1:cate_count_s
-    b = zeros(N_t, cate_count_s); %not bug, but not good
-    b(:, cate_count_s + 1) = ones(N_t, 1); % b = [b,ones(N_t,1)]
+    b = zeros(N_t, cate_count_s);
     b(:, i) = ones(N_t, 1);
+    b = [X_t, b, ones(N_t, 1)];
     b = phi_t .* (b - phi_t) * v;
     b = b(sub2ind(size(Xi_t), 1:N_t, L_t'));
     c(:, i) = b;

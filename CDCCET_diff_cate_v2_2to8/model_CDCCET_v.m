@@ -4,14 +4,14 @@ function [f, g1] = model_CDCCET_w(v1, X_t, L_t, lambda1, lambda3, cate_count_s, 
 [N_t, M] = size(X_t);
 
 w = reshape(w1, M, cate_count_s); %de-vectorize
-v = reshape(v1, cate_count_s + 1, cate_count_t);
+v = reshape(v1, M + cate_count_s + 1, cate_count_t);
 
 %tmp = exp(X_s * w);
 %phi_s = tmp ./ repmat(sum(tmp,2), 1, cate_count_s);
 
 tmp = exp(X_t * w);
 phi_t = tmp ./ repmat(sum(tmp,2), 1, cate_count_s);
-phi_t = [phi_t, ones(N_t, 1)];
+phi_t = [X_t, phi_t, ones(N_t, 1)];
 tmp = exp(phi_t * v);
 Xi_t = tmp ./ repmat(sum(tmp,2), 1, cate_count_t);
 
@@ -27,5 +27,5 @@ f = - sum(log_Xi_t(sub2ind(size(Xi_t), 1:N_t, L_t'))) * exp(lambda1) / N_t  ...
 g = - phi_t' * (full(sparse(1:N_t, L_t, ones(1,N_t), N_t, cate_count_t)) - Xi_t) * exp(lambda1) / N_t ...
     + 2 * exp(lambda3) * v;
 
-g1 = reshape(g, (cate_count_s + 1) * cate_count_t, 1); %vectorize
+g1 = reshape(g, (M + cate_count_s + 1) * cate_count_t, 1); %vectorize
 

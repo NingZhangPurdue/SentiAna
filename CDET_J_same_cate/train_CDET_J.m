@@ -62,34 +62,34 @@ if kfold ~= 0
 end
 
 %train
-beta = zeros(N_s, 1);
-try
-    load beta
-catch err
-    fprintf('-----KDE start-----\r\n');
-    bandwidth = bw_opt;
-    %ratio of category probability between source and target
-    pr_cate_t = tabulate(L_t);
-    pr_cate_t = pr_cate_t(:, 3);
-    pr_cate_s = tabulate(L_s);
-    pr_cate_s = pr_cate_s(:, 3);
-    pr_cate = pr_cate_t ./ pr_cate_s;
-
-    %ratio of category marginal probability between source and target (by kernel density estimation)
-    pr_cate_marg = zeros(N_s, 1);
-    for i = 1:N_s
-        indicators = (L_t == L_s(i));
-        pr_cate_marg_t = sum(exp(-sqrt(sum((repmat(X_s(i, :), sum(indicators), 1) - X_t(indicators, :)).^2, 2)) / bandwidth ^ 2));
-        indicators = (L_s == L_s(i));
-        pr_cate_marg_s = sum(exp(-sqrt(sum((repmat(X_s(i, :), sum(indicators), 1) - X_s(indicators, :)).^2, 2)) / bandwidth ^ 2)) - 1;
-        pr_cate_marg(i) = pr_cate_marg_t / pr_cate_marg_s;
-    end
-
-    %beta = pr_cate * pr_cate_marg
-    beta = pr_cate_marg * pr_cate';
-    beta = beta(sub2ind([N_s, cate_count], 1:N_s, L_s'));
-    save beta beta -ascii
-end
+beta = ones(1, N_s);
+%try
+%    load beta
+%catch err
+%    fprintf('-----KDE start-----\r\n');
+%    bandwidth = bw_opt;
+%    %ratio of category probability between source and target
+%    pr_cate_t = tabulate(L_t);
+%    pr_cate_t = pr_cate_t(:, 3);
+%    pr_cate_s = tabulate(L_s);
+%    pr_cate_s = pr_cate_s(:, 3);
+%    pr_cate = pr_cate_t ./ pr_cate_s;
+%
+%    %ratio of category marginal probability between source and target (by kernel density estimation)
+%    pr_cate_marg = zeros(N_s, 1);
+%    for i = 1:N_s
+%        indicators = (L_t == L_s(i));
+%        pr_cate_marg_t = sum(exp(-sqrt(sum((repmat(X_s(i, :), sum(indicators), 1) - X_t(indicators, :)).^2, 2)) / bandwidth ^ 2));
+%        indicators = (L_s == L_s(i));
+%        pr_cate_marg_s = sum(exp(-sqrt(sum((repmat(X_s(i, :), sum(indicators), 1) - X_s(indicators, :)).^2, 2)) / bandwidth ^ 2)) - 1;
+%        pr_cate_marg(i) = pr_cate_marg_t / pr_cate_marg_s;
+%    end
+%
+%    %beta = pr_cate * pr_cate_marg
+%    beta = pr_cate_marg * pr_cate';
+%    beta = beta(sub2ind([N_s, cate_count], 1:N_s, L_s'));
+%    save beta beta -ascii
+%end
 %size(beta)
 %test = sum(beta)
 
@@ -111,4 +111,13 @@ phi_t = tmp ./ repmat(sum(tmp,2), 1, cate_count);
 
 accu_train = sum(L_pre == L_t) / N_t;
 
-
+%debug
+%[~, index] = sort(w);
+%index = index(3900:end, :)
+%fid = fopen('../termIndex');
+%terms = textscan(fid, '%s\t%d');
+%terms = terms{1};
+%terms = [terms; 1];
+%size(terms)
+%whos terms
+%terms(index)

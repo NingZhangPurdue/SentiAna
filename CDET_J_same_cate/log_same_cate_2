@@ -1,0 +1,1327 @@
+diary on
+exp_CDET_J(1,2,10,5)
+exp_CDET_J(1,2,10)
+-----Cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:-4, bw:7.500000e+00, accu_ave:0.383270
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:-2, bw:7.500000e+00, accu_ave:0.384438
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:0, bw:7.500000e+00, accu_ave:0.208510
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:2, bw:7.500000e+00, accu_ave:0.209419
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:4, bw:7.500000e+00, accu_ave:0.217265
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:6, bw:7.500000e+00, accu_ave:0.323991
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:8, bw:7.500000e+00, accu_ave:0.406220
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 9.600070e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 9.445132e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.288185e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.776812e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.131505e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+l1:-1, l2:10, bw:7.500000e+00, accu_ave:0.439711
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:-4, bw:7.500000e+00, accu_ave:0.382801
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:-2, bw:7.500000e+00, accu_ave:0.383289
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:0, bw:7.500000e+00, accu_ave:0.403513
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:2, bw:7.500000e+00, accu_ave:0.209520
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:4, bw:7.500000e+00, accu_ave:0.227651
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:6, bw:7.500000e+00, accu_ave:0.327707
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:8, bw:7.500000e+00, accu_ave:0.407361
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.055925e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 9.519545e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 8.250337e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 9.142457e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.467240e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+l1:1, l2:10, bw:7.500000e+00, accu_ave:0.440856
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:-4, bw:7.500000e+00, accu_ave:0.416697
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:-2, bw:7.500000e+00, accu_ave:0.414433
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:0, bw:7.500000e+00, accu_ave:0.424752
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:2, bw:7.500000e+00, accu_ave:0.462875
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:4, bw:7.500000e+00, accu_ave:0.348301
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:6, bw:7.500000e+00, accu_ave:0.355989
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:8, bw:7.500000e+00, accu_ave:0.412115
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.076051e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 9.436006e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 8.391901e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.290055e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.000799e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+l1:3, l2:10, bw:7.500000e+00, accu_ave:0.441111
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:-4, bw:7.500000e+00, accu_ave:0.484841
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:-2, bw:7.500000e+00, accu_ave:0.481263
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:0, bw:7.500000e+00, accu_ave:0.478160
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:2, bw:7.500000e+00, accu_ave:0.483641
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:4, bw:7.500000e+00, accu_ave:0.488705
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:6, bw:7.500000e+00, accu_ave:0.461332
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:8, bw:7.500000e+00, accu_ave:0.445778
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.000732e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.316121e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.058115e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.060512e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 9.692416e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+l1:5, l2:10, bw:7.500000e+00, accu_ave:0.444451
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:-4, bw:7.500000e+00, accu_ave:0.512478
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:-2, bw:7.500000e+00, accu_ave:0.517238
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:0, bw:7.500000e+00, accu_ave:0.515017
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:2, bw:7.500000e+00, accu_ave:0.512107
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:4, bw:7.500000e+00, accu_ave:0.517899
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:6, bw:7.500000e+00, accu_ave:0.520625
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:8, bw:7.500000e+00, accu_ave:0.516071
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.092492e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 8.391811e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 9.603494e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.325241e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.258811e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+l1:7, l2:10, bw:7.500000e+00, accu_ave:0.479987
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:-4, bw:7.500000e+00, accu_ave:0.500784
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:-2, bw:7.500000e+00, accu_ave:0.505715
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:0, bw:7.500000e+00, accu_ave:0.495570
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:2, bw:7.500000e+00, accu_ave:0.500778
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:4, bw:7.500000e+00, accu_ave:0.499876
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:6, bw:7.500000e+00, accu_ave:0.506960
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:8, bw:7.500000e+00, accu_ave:0.503863
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 7.169664e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 4.421781e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 4.924283e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 5.425799e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 3.606523e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+l1:9, l2:10, bw:7.500000e+00, accu_ave:0.500671
+-----KDE start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:-4, bw:10, accu_ave:0.383325
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:-2, bw:10, accu_ave:0.383418
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:0, bw:10, accu_ave:0.371531
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:2, bw:10, accu_ave:0.207851
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:4, bw:10, accu_ave:0.209024
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:6, bw:10, accu_ave:0.210130
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:8, bw:10, accu_ave:0.277975
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:10, bw:10, accu_ave:0.380105
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:-4, bw:10, accu_ave:0.383308
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:-2, bw:10, accu_ave:0.383361
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:0, bw:10, accu_ave:0.383363
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:2, bw:10, accu_ave:0.392857
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:4, bw:10, accu_ave:0.208593
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:6, bw:10, accu_ave:0.210611
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:8, bw:10, accu_ave:0.281892
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:10, bw:10, accu_ave:0.380649
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:-4, bw:10, accu_ave:0.418082
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:-2, bw:10, accu_ave:0.417008
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:0, bw:10, accu_ave:0.419004
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:2, bw:10, accu_ave:0.436588
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----KDE start-----
+-----Optimization start-----
+l1:3, l2:4, bw:10, accu_ave:0.427285
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----KDE start-----
+-----Optimization start-----
+l1:3, l2:6, bw:10, accu_ave:0.366064
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:8, bw:10, accu_ave:0.425429
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.762478e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.939461e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 2.008832e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 2.518674e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 2.092446e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+l1:3, l2:10, bw:10, accu_ave:0.438714
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:-4, bw:10, accu_ave:0.481521
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:-2, bw:10, accu_ave:0.481579
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:0, bw:10, accu_ave:0.486305
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:2, bw:10, accu_ave:0.486479
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:4, bw:10, accu_ave:0.488849
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:6, bw:10, accu_ave:0.446030
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:8, bw:10, accu_ave:0.449556
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 3.008514e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 2.818194e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.613739e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 3.130007e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.969861e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+l1:5, l2:10, bw:10, accu_ave:0.444626
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:-4, bw:10, accu_ave:0.519071
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:-2, bw:10, accu_ave:0.513860
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:0, bw:10, accu_ave:0.511605
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:2, bw:10, accu_ave:0.516764
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:4, bw:10, accu_ave:0.512082
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:6, bw:10, accu_ave:0.503718
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:8, bw:10, accu_ave:0.500797
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 2.428997e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.538276e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 2.213143e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.693479e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.687456e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+l1:7, l2:10, bw:10, accu_ave:0.469946
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:-4, bw:10, accu_ave:0.502818
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:-2, bw:10, accu_ave:0.498139
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:0, bw:10, accu_ave:0.512889
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:2, bw:10, accu_ave:0.508812
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:4, bw:10, accu_ave:0.503974
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:6, bw:10, accu_ave:0.503137
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:8, bw:10, accu_ave:0.507531
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 2.174242e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.995774e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:10, bw:10, accu_ave:0.505012
+-----KDE start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:-4, bw:1.250000e+01, accu_ave:0.383134
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:-2, bw:1.250000e+01, accu_ave:0.383555
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:0, bw:1.250000e+01, accu_ave:0.369491
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:2, bw:1.250000e+01, accu_ave:0.207878
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:4, bw:1.250000e+01, accu_ave:0.208797
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:6, bw:1.250000e+01, accu_ave:0.212673
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:8, bw:1.250000e+01, accu_ave:0.305314
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, l2:10, bw:1.250000e+01, accu_ave:0.411941
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:-4, bw:1.250000e+01, accu_ave:0.384343
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:-2, bw:1.250000e+01, accu_ave:0.384183
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:0, bw:1.250000e+01, accu_ave:0.383447
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:2, bw:1.250000e+01, accu_ave:0.383682
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:4, bw:1.250000e+01, accu_ave:0.208219
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:6, bw:1.250000e+01, accu_ave:0.217894
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:8, bw:1.250000e+01, accu_ave:0.309272
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, l2:10, bw:1.250000e+01, accu_ave:0.413307
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:-4, bw:1.250000e+01, accu_ave:0.418198
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:-2, bw:1.250000e+01, accu_ave:0.414408
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:0, bw:1.250000e+01, accu_ave:0.417324
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----KDE start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:2, bw:1.250000e+01, accu_ave:0.455342
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:4, bw:1.250000e+01, accu_ave:0.326658
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:6, bw:1.250000e+01, accu_ave:0.363855
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:8, bw:1.250000e+01, accu_ave:0.405539
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, l2:10, bw:1.250000e+01, accu_ave:0.435429
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:-4, bw:1.250000e+01, accu_ave:0.480535
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:-2, bw:1.250000e+01, accu_ave:0.481701
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:0, bw:1.250000e+01, accu_ave:0.482845
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:2, bw:1.250000e+01, accu_ave:0.481408
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:4, bw:1.250000e+01, accu_ave:0.485882
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:6, bw:1.250000e+01, accu_ave:0.474264
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:8, bw:1.250000e+01, accu_ave:0.452510
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, l2:10, bw:1.250000e+01, accu_ave:0.454499
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:-4, bw:1.250000e+01, accu_ave:0.513206
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:-2, bw:1.250000e+01, accu_ave:0.518859
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:0, bw:1.250000e+01, accu_ave:0.520045
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:2, bw:1.250000e+01, accu_ave:0.514601
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:4, bw:1.250000e+01, accu_ave:0.521698
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:6, bw:1.250000e+01, accu_ave:0.520587
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:8, bw:1.250000e+01, accu_ave:0.519143
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, l2:10, bw:1.250000e+01, accu_ave:0.490165
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:-4, bw:1.250000e+01, accu_ave:0.502788
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:-2, bw:1.250000e+01, accu_ave:0.511857
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:0, bw:1.250000e+01, accu_ave:0.507285
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:2, bw:1.250000e+01, accu_ave:0.515323
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:4, bw:1.250000e+01, accu_ave:0.516442
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:6, bw:1.250000e+01, accu_ave:0.512076
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, l2:8, bw:1.250000e+01, accu_ave:0.512019
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 9.125243e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.450483e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 8.830538e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 8.818283e-17.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+-----Optimization start-----
+{Warning: Matrix is close to singular or badly scaled.
+         Results may be inaccurate. RCOND = 1.038591e-16.} 
+> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_CDET_J at 104
+  In train_CDET_J at 42
+  In exp_CDET_J at 47
+l1:9, l2:10, bw:1.250000e+01, accu_ave:0.507077
+-----Cross validation end-----
+
+l1_opt =
+
+     7
+
+
+l2_opt =
+
+     4
+
+
+bw_opt =
+
+   12.5000
+
+-----KDE start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+
+accu_train =
+
+    0.6732
+
+
+accu_test =
+
+    0.5177
+
+diary off

@@ -2,7 +2,7 @@ function [w, accu_train, l1_opt] = train_ETLR(X_t, L_t, lambda1, kfold, cate_cou
 addpath('/homes/zhan1149/rly/Logistic/minFunc');
 
 if lambda1 < -10
-    lambda1 = -0:10;
+    lambda1 = -1:10;
 else
     l1_opt = lambda1;
 end

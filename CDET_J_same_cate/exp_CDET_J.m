@@ -1,4 +1,4 @@
-function exp_CDET_J(mode, deno_sample_rate, num_round, do_cross_val)
+function exp_CDET_J(mode, deno_sample_rate, num_round, do_cross_val,l1_opt,l2_opt,bw_opt)
 fprintf('exp_CDET_J(%d,%d,%d)\r\n',mode,deno_sample_rate,num_round);
 
 data_QQ = load('../feaMat_comments_Preprocess_QQEntertainment.txt');
@@ -28,11 +28,7 @@ L_t = L_t - 1;
 
 accu_train = zeros(num_round, 1);
 accu_test = zeros(num_round, 1);
-if do_cross_val == 0
-    l1_opt = 8;%optimal when sample ratio 1/2
-    l2_opt = 8;
-    bw_opt = 10;
-else
+if do_cross_val > 0
     l1_opt = -11;
     l2_opt = -11;
     bw_opt = -1;

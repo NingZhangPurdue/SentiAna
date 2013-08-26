@@ -98,7 +98,7 @@ options.maxFunEvals = 200;
 options.Methods = 'lbfgs';
 
 w_old = rand(M * cate_count_s, 1);
-v_old = rand((cate_count_s + 1) * cate_count_t, 1);
+v_old = rand((M + cate_count_s + 1) * cate_count_t, 1);
 w = w_old;
 v = v_old;
 beta;
@@ -125,10 +125,10 @@ end
 
 %evaluate, acc@1
 w = reshape(w, M, cate_count_s);
-v = reshape(v, cate_count_s + 1, cate_count_t);
+v = reshape(v, M + cate_count_s + 1, cate_count_t);
 tmp = exp(X_t * w);
 phi_t = tmp ./ repmat(sum(tmp,2), 1, cate_count_s);
-phi_t = [phi_t, ones(N_t,1)];
+phi_t = [X_t, phi_t, ones(N_t,1)];
 tmp = exp(phi_t * v);
 Xi_t = tmp ./ repmat(sum(tmp,2), 1, cate_count_t);
 [~, L_pre] = max(Xi_t, [], 2);

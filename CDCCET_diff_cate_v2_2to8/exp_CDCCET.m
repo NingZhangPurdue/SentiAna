@@ -1,4 +1,5 @@
 function exp_CDCCET(mode, deno_sample_rate, num_round, do_cross_val,l1_opt,l2_opt,l3_opt,bw_opt)
+% use all features in 2nd level
 
 fprintf('+++++++++++++++++++++++exp_CDCCET(%d,%d,%d,%d)++++++++++++++++++++++++\r\n',mode,deno_sample_rate,num_round,do_cross_val);
 data_QQ = load('../feaMat_comments_Preprocess_QQEntertainment.txt');

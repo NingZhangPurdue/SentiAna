@@ -1,0 +1,1484 @@
+
+ratios =
+
+    64    32    16     8     4     2
+
+exp_ETLR(3,64,10)
+-----cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, accu_ave:0.548389
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:0, accu_ave:0.528773
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, accu_ave:0.578022
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:2, accu_ave:0.597554
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, accu_ave:0.610196
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:4, accu_ave:0.525944
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, accu_ave:0.534418
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:6, accu_ave:0.577628
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, accu_ave:0.581360
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:8, accu_ave:0.499633
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, accu_ave:0.559790
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.592625e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.427911e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.224745e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.147285e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+l1:10, accu_ave:0.550034
+-----cross validation end-----
+
+l1_opt =
+
+     3
+
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+
+accu_train =
+
+    0.9440
+
+
+accu_test =
+
+    0.6325
+
+exp_ETLR(3,32,10)
+-----cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, accu_ave:0.601014
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:0, accu_ave:0.610932
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, accu_ave:0.615020
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:2, accu_ave:0.618654
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, accu_ave:0.673025
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:4, accu_ave:0.706954
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, accu_ave:0.663765
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:6, accu_ave:0.716146
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, accu_ave:0.728582
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:8, accu_ave:0.736306
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, accu_ave:0.722319
+-----Optimization start-----
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+2.045396e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.049895e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+l1:10, accu_ave:0.738424
+-----cross validation end-----
+
+l1_opt =
+
+    10
+
+-----Optimization start-----
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.676558e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.601764e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.104421e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.661559e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.421750e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+
+accu_train =
+
+     1
+
+
+accu_test =
+
+    0.6623
+
+exp_ETLR(3,16,10)
+-----cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, accu_ave:0.638973
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:0, accu_ave:0.629535
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, accu_ave:0.634081
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:2, accu_ave:0.636444
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, accu_ave:0.669555
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:4, accu_ave:0.717864
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, accu_ave:0.709956
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:6, accu_ave:0.732794
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, accu_ave:0.723115
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:8, accu_ave:0.724984
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, accu_ave:0.719248
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.377305e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+6.053278e-17.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+l1:10, accu_ave:0.736200
+-----cross validation end-----
+
+l1_opt =
+
+    10
+
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.159349e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.818142e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.430232e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.898969e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+
+accu_train =
+
+    0.9990
+
+
+accu_test =
+
+    0.6871
+
+exp_ETLR(3,8,10)
+-----cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, accu_ave:0.621721
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:0, accu_ave:0.623937
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, accu_ave:0.625628
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:2, accu_ave:0.626195
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, accu_ave:0.640931
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:4, accu_ave:0.683397
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, accu_ave:0.708840
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:6, accu_ave:0.706814
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, accu_ave:0.723804
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:8, accu_ave:0.699397
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, accu_ave:0.706641
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.228942e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:10, accu_ave:0.699792
+-----cross validation end-----
+
+l1_opt =
+
+     7
+
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+
+accu_train =
+
+    0.9574
+
+
+accu_test =
+
+    0.7273
+
+exp_ETLR(3,4,10)
+-----cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, accu_ave:0.601757
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:0, accu_ave:0.602254
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, accu_ave:0.603665
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:2, accu_ave:0.633619
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, accu_ave:0.690415
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:4, accu_ave:0.726882
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, accu_ave:0.745063
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:6, accu_ave:0.762853
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, accu_ave:0.774066
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:8, accu_ave:0.755884
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, accu_ave:0.743372
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:10, accu_ave:0.726458
+-----cross validation end-----
+
+l1_opt =
+
+     7
+
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+
+accu_train =
+
+    0.9051
+
+
+accu_test =
+
+    0.7450
+
+exp_ETLR(3,2,10)
+-----cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, accu_ave:0.606215
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:0, accu_ave:0.605810
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, accu_ave:0.605791
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:2, accu_ave:0.621957
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, accu_ave:0.674889
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:4, accu_ave:0.738654
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, accu_ave:0.750688
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:6, accu_ave:0.757537
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, accu_ave:0.752928
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:8, accu_ave:0.744377
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, accu_ave:0.730183
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.729739e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 5] 
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:10, accu_ave:0.719754
+-----cross validation end-----
+
+l1_opt =
+
+     6
+
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+
+accu_train =
+
+    0.8110
+
+
+accu_test =
+
+    0.7558
+
+exp_ETLR(4,64,10)
+-----cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, accu_ave:0.673432
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:0, accu_ave:0.635442
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, accu_ave:0.648447
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:2, accu_ave:0.709152
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, accu_ave:0.702094
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:4, accu_ave:0.725268
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, accu_ave:0.711797
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:6, accu_ave:0.740420
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, accu_ave:0.694403
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:8, accu_ave:0.754405
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, accu_ave:0.702475
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.179086e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+-----Optimization start-----
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.079980e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.644929e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+9.474144e-17.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+l1:10, accu_ave:0.670324
+-----cross validation end-----
+
+l1_opt =
+
+     8
+
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+
+accu_train =
+
+    0.9978
+
+
+accu_test =
+
+    0.6510
+
+exp_ETLR(4,32,10)
+-----cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, accu_ave:0.662453
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:0, accu_ave:0.634046
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, accu_ave:0.689519
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:2, accu_ave:0.698057
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, accu_ave:0.705182
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:4, accu_ave:0.701894
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, accu_ave:0.714481
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:6, accu_ave:0.687395
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, accu_ave:0.707579
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:8, accu_ave:0.707222
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, accu_ave:0.726490
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+2.171696e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+9.444348e-17.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.461044e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.669295e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.160215e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+l1:10, accu_ave:0.697103
+-----cross validation end-----
+
+l1_opt =
+
+     9
+
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+
+accu_train =
+
+    0.9971
+
+
+accu_test =
+
+    0.6549
+
+exp_ETLR(4,16,10)
+-----cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, accu_ave:0.583263
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:0, accu_ave:0.568495
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, accu_ave:0.622855
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:2, accu_ave:0.621788
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, accu_ave:0.651151
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:4, accu_ave:0.647908
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, accu_ave:0.672407
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:6, accu_ave:0.654140
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, accu_ave:0.649785
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:8, accu_ave:0.661154
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, accu_ave:0.620945
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:10, accu_ave:0.651183
+-----cross validation end-----
+
+l1_opt =
+
+     5
+
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+
+accu_train =
+
+    0.9109
+
+
+accu_test =
+
+    0.7135
+
+exp_ETLR(4,8,10)
+-----cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, accu_ave:0.569898
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:0, accu_ave:0.598594
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, accu_ave:0.642544
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:2, accu_ave:0.685566
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, accu_ave:0.724018
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:4, accu_ave:0.716275
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, accu_ave:0.704594
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:6, accu_ave:0.719736
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, accu_ave:0.711767
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:8, accu_ave:0.708852
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, accu_ave:0.690589
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+7.540926e-17.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.555486e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+-----Optimization start-----
+l1:10, accu_ave:0.675914
+-----cross validation end-----
+
+l1_opt =
+
+     3
+
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+
+accu_train =
+
+    0.7747
+
+
+accu_test =
+
+    0.7200
+
+exp_ETLR(4,4,10)
+-----cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, accu_ave:0.603426
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:0, accu_ave:0.636763
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, accu_ave:0.672801
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:2, accu_ave:0.712974
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, accu_ave:0.724244
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:4, accu_ave:0.734464
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, accu_ave:0.744567
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:6, accu_ave:0.748294
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, accu_ave:0.740108
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:8, accu_ave:0.730323
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, accu_ave:0.722709
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:10, accu_ave:0.719437
+-----cross validation end-----
+
+l1_opt =
+
+     6
+
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+
+accu_train =
+
+    0.8520
+
+
+accu_test =
+
+    0.7456
+
+exp_ETLR(4,2,10)
+-----cross validation start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:-1, accu_ave:0.593754
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:0, accu_ave:0.617757
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:1, accu_ave:0.672692
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:2, accu_ave:0.707951
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:3, accu_ave:0.731786
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:4, accu_ave:0.743862
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:5, accu_ave:0.756627
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:6, accu_ave:0.754647
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:7, accu_ave:0.760728
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:8, accu_ave:0.748171
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+l1:9, accu_ave:0.731586
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.550934e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+-----Optimization start-----
+-----Optimization start-----
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.731340e-16.] 
+[> In polyinterp at 88
+  In WolfeLineSearch at 118
+  In minFunc at 1030
+  In train_ETLR at 53
+  In train_ETLR at 28
+  In exp_ETLR at 45
+  In script_diff_cate at 9] 
+-----Optimization start-----
+-----Optimization start-----
+l1:10, accu_ave:0.725809
+-----cross validation end-----
+
+l1_opt =
+
+     7
+
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+-----Optimization start-----
+
+accu_train =
+
+    0.8469
+
+
+accu_test =
+
+    0.7569
+

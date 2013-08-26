@@ -30,8 +30,8 @@ c = zeros(N_t, cate_count_s);
 %g = zeros(M * cate_count_s);
 
 for i = 1:cate_count_s
-    b = zeros(N_t, cate_count_s); %not bug, but not good
-    b(:, cate_count_s + 1) = ones(N_t, 1); % b = [b,ones(N_t,1)]
+    b = zeros(N_t, cate_count_s);
+    b(:, cate_count_s + 1) = ones(N_t, 1);
     b(:, i) = ones(N_t, 1);
     b = phi_t .* (b - phi_t) * v;
     b = b(sub2ind(size(Xi_t), 1:N_t, L_t'));
